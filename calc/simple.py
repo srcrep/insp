@@ -1,8 +1,8 @@
 import math
-P=float(input("Inside pressure psig:"))
-SE=float(input("Allowable limit psi:"))
-D=float(input("Inside Diameter in:"))
-Ca=float(input("Corrosion Allowance in:"))
+P=float(input("Design Pressure:"))
+SE=float(input("Allowable Stress:"))
+D=float(input("Inside Diameter:"))
+Ca=float(input("Corrosion Allowance:"))
 
 #corrosion allowance
 Di=D+2*Ca
@@ -26,8 +26,11 @@ t2=t0+Ca
 
 #results
 
-print("div1 tmin :", t, "in inches")
-print("div1 tmin + Ca :", t1, "in inches")
-print("div2 tmin :", t0, "in inches")
-print("div2 tmin + Ca:", t2, "in inches")
-print("tmin :", (min(t1,t2)), "in inches")
+print("tmin :", (min(t,t0)), '"')
+print("tMin + CA :", (min(t1,t2)), '"')
+
+print("div1 tmin :", t, '"')
+print("div1 tmin + Ca :", t1, '"')
+
+print("div2 tmin :", t0, '"')
+print("div2 tmin + Ca:", t2, '"')
