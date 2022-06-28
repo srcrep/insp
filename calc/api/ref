@@ -1,0 +1,36 @@
+#7.6 Required Thickness Determination
+
+  #The required thickness shall be based on pressure, mechanical, and structural considerations using the appropriate
+  #design formulae and code allowable stress. For services with high potential consequences if failure were to occur, the
+  #engineer should consider increasing the required thickness above the calculated minimum thickness to provide for
+  #unanticipated or unknown loadings, undiscovered metal loss, or resistance to normal abuse.
+
+
+#7.7 Evaluation of Existing Equipment with Minimal Documentation
+
+  #For pressure vessels that have no nameplate and minimal or no design and construction documentation, the
+  #following steps may be used to verify operating integrity.
+
+    #1) Perform inspection to determine condition of the vessel including a complete dimensional checking of all
+    #components necessary to determine the minimum required thickness and adequacy of the design of the vessel
+    #[i.e. heads, shell(s), transitions, openings, reinforcement pads, saddle supports, etc.].
+
+    #2) Define design parameters and prepare drawings.
+
+    #3) Perform design calculations based on applicable codes and standards. Do not use allowable stress values of 
+    #the current ASME Code (based on design factor of 3.5) for vessels designed to an edition or addendum of the
+    #ASME Code earlier than the 1999 addendum and was not designed to ASME Code Case 2290 or ASME Code
+    #Case 2278. For vessels designed to an edition or addendum of the ASME Code earlier than the 1999
+    #addendum and were not designed to ASME Code Case 2290 or ASME Code Case 2278, use allowable stress
+    #values of the pre-1999 ASME Code (based on design factor of 4.0 or 5.0). See ASME Code, Section VIII,
+    #Division 1, Paragraph UG-10(c) for guidance on evaluation of unidentified materials. If UG-10(c) is not followed,
+    #then for carbon steels, use allowable stresses for SA-283 Grade C and for alloy and nonferrous materials, use
+    #X-ray fluorescence analysis to determine material type on which to base allowable stress values. When the
+    #extent of radiography originally performed is not known, use joint efficiency of 0.7 for Type No. (1) and 0.65 for
+    #Type No. (2) butt welds and 0.85 for seamless shells, heads, and nozzles or consider performing radiography if
+    #a higher joint efficiency is needed. (Recognize that performing radiography on welds in a vessel with minimal or
+    #no design and construction documentation may result in the need for a FFS evaluation and significant repairs.)
+
+    #4) Attach a nameplate or stamping showing the MAWP and temperature, MAT, and date.
+    
+    #5) Perform pressure test as soon as practical, as required by code of construction used for design calculations.
