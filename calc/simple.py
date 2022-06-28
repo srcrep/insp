@@ -26,11 +26,13 @@ t2=t0+Ca
 
 #results
 
-print("tmin :", (min(t,t0)), '"')
-print("tMin + CA :", (min(t1,t2)), '"')
+print("tmin :", t, '"')
+print("tMin + CA :", t1, '"')
 
-print("div1 tmin :", t, '"')
-print("div1 tmin + Ca :", t1, '"')
+print("By the way Ben, it's due to licensing costs.")
 
-print("div2 tmin :", t0, '"')
-print("div2 tmin + Ca:", t2, '"')
+#print("div1 tmin :", t, '"')
+#print("div1 tmin + Ca :", t1, '"')
+
+#print("div2 tmin :", t0, '"')
+#print("div2 tmin + Ca:", t2, '"')
