@@ -1,0 +1,20 @@
+import design
+
+p=design.p
+s=design.s
+e=design.e
+d=design.d
+r=design.r
+
+t = (p*r)/((s*e)-(0.6*p))
+t = t
+
+p = (s*e*t)/((r)+(0.6*t))
+p = p
+
+print("t = (pr)/(se)-(0.6p)")
+print('pr=',p*r)
+print('se=',s*e)
+print('0.6p=',0.6*p)
+print('se-0.6p=',((s*e)-(0.6*p)))
+print(t)
