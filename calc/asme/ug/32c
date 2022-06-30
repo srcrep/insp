@@ -1,0 +1,21 @@
+#ellipsoidal heads with t(s)/L >/= 0.002 ///////// if not met refer to rules of 1-4(f)
+import design
+
+p=design.p
+s=design.s
+e=design.e
+d=design.d
+r=design.r
+
+t=(p*d)/((2*s*e)-(0.2*p))
+t = t
+
+p=(2*s*e*t)/((d)+(0.2*t))
+p = p
+
+print('tMin = t=pd/2se-0.2p or p=2set/d+0.2t')
+print('pd=',p*d)
+print('2se=',2*s*e)
+print('0.2p=',0.2*p)
+print('2se-0.2p=,((2*s*e)-(0.2*p)))
+print('t in t=pd/2se-0.2p equals',t)
